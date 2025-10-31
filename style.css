@@ -1,0 +1,196 @@
+
+
+body {
+margin: 0;
+  font-family: "Helvetica Neue", arial;
+  background-color: white;
+}
+
+/*
+    NAVIGATION
+*/
+#navigation {
+  list-style-type: none;     /* enlève les puces */
+  margin: 0;
+  padding: 30px;
+  background-color: #f8f8f8; /* fond clair */
+  text-align: center;        /* centre tout le contenu */
+  position: sticky;
+  top: 0;
+}
+
+#navigation li {
+  display: inline-block;     /* les éléments sur une ligne */
+  margin:  25px;            /* espace entre les liens */
+  
+}
+
+#navigation a {
+  color: #555;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 3px;
+}
+
+#navigation a:hover {
+  color: black;
+}
+
+/*
+    LOGO
+*/
+
+#logo {
+  font-size: 40px;
+  font-weight: 600;
+  color: black;
+  letter-spacing: 2px;
+
+}
+
+#intro{
+    color: black;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+#subtitle{
+font-family: arial, serif;
+  font-weight: 300;
+  color: #555;
+  letter-spacing: 1px;
+  margin-top: -30px;
+  text-align: center;
+  font-size: 15px;
+}
+p{
+    color: #555;
+    font-size: 20px;
+    padding-left: 20px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    letter-spacing: 2px;
+    
+}
+#img{
+    float: left;
+    margin-right: 30px;
+    margin-left: 70px;
+    margin-top: 15px;
+    padding-bottom: 15px;
+
+}
+#p{color: #555;
+    font-size: 20px;
+    padding-left: 70px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    letter-spacing: 2px;
+    
+
+}
+#contact{
+  background-color: #F0F4F5;
+  text-align: center;
+  
+}
+#about-quote{
+  text-align: center;
+  color: #0a1c2e;
+  font-weight: 500;
+  font-family: 'Playfair Display';
+  font-size: 35px;
+}
+#about-text{
+  color: #2e2e2e;
+    font-size: 25px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    letter-spacing: 2px;
+    margin-left: 300px;
+    margin-right: 300px;
+    text-align: center;
+    line-height: 2;
+    margin-top: 70px;
+    
+}
+#founder-img{
+  float: left;
+  border-radius: 95%;
+  margin-top: 30px;
+  margin-left: 60px;
+  margin-bottom: 30px;
+}
+#founder-text{
+  margin-left: 350px;
+  margin-top: 100px;
+  margin-right: 100px;
+  background-color: #D9D9D6;
+  border-radius: 40px;
+  padding: 50px;
+  
+}
+#product-intro{
+  margin-left: 60px;
+  margin-right: 60px;
+}
+h2{
+  margin-left: 80px;
+  margin-top: 70px;
+  letter-spacing: 2px;
+}
+h3{
+  text-align: center;
+  margin-top: 100px;
+  letter-spacing: 1px;
+  font-size: 25px;
+}
+#cream{
+  float: left;
+  margin-left: 300px;
+}
+#mask{
+  float: right;
+  margin-right: 300px;
+}
+#serum{
+  float: left;
+  margin-left: 300px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+#mist{
+  float: right;
+  margin-right: 300px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+
+}
+.products-img{
+  float: left;
+  margin-left: 100px;
+  margin-top: 100px;
+  margin-right: 30px;
+ 
+  flex-shrink: 0;
+  
+}
+#collection{
+  
+  font-size: 10px;
+  margin-top: 100px;
+}
+.text{
+  
+  font-size: 15px;
+  max-height: 500px;
+  padding-right: 10px;
+  
+  
+}
+.howtouse{
+   font-size: 15px;
+  max-height: 500px;
+  padding-right: 10px;
+  margin-left: 510px;
+}
