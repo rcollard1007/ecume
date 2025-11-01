@@ -206,3 +206,27 @@ h3{
   padding-top: 15px;
   padding-bottom: 15px;
 }
+
+/* FAQ page*/
+body#faq{
+  background-color: #E9ECEF;
+}
+#faq-title{
+  text-align: center;
+}
+.faq-questions{
+  text-align: left;
+  margin-left: 30px;
+  letter-spacing: 2px;
+  margin-bottom: 0px;
+  
+}
+.faq-answer{
+  margin-right: 500px;
+  background-color: #FFFFFF;
+  border-radius: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 10px;
+ 
+}
