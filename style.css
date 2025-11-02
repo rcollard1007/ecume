@@ -230,3 +230,16 @@ body#faq{
   margin-left: 10px;
  
 }
+
+.frag-left{
+  float: left;
+  margin-left: 140px;
+}
+.frag-right{
+  float:right;
+  margin-right: 150px;
+}
+video {
+    width: 100%;
+    height: 800px;
+    object-fit: cover;}
