@@ -7,13 +7,13 @@ margin: 0;
 }
 
 /*
-    NAVIGATION
+    NAVIGATION BAR
 */
 #navigation {
   list-style-type: none;     /* enlève les puces */
   margin: 0;
   padding: 30px;
-  background-color: #f8f8f8; /* fond clair */
+  background-color: #f8f8f8; 
   text-align: center;        /* centre tout le contenu */
   position: sticky;
   top: 0;
@@ -37,10 +37,6 @@ margin: 0;
   color: black;
 }
 
-/*
-    LOGO
-*/
-
 #logo {
   font-size: 40px;
   font-weight: 600;
@@ -49,6 +45,15 @@ margin: 0;
 
 }
 
+/* END OF NAVIGATION BAR*/
+
+
+
+
+/* INDEX*/
+
+                /* A new way to experience beauty*/
+                                         
 #intro{
     color: black;
     font-family: 'Playfair Display', serif;
@@ -57,6 +62,8 @@ margin: 0;
     font-weight: 500;
     letter-spacing: 2px;
 }
+
+                /* Where the sea meets the skin*/
 #subtitle{
 font-family: arial, serif;
   font-weight: 300;
@@ -66,6 +73,8 @@ font-family: arial, serif;
   text-align: center;
   font-size: 15px;
 }
+
+                /* 1  text*/
 p{
     color: #555;
     font-size: 20px;
@@ -74,6 +83,8 @@ p{
     letter-spacing: 2px;
     
 }
+
+                /* img on the left*/
 #img{
     float: left;
     margin-right: 30px;
@@ -82,19 +93,20 @@ p{
     padding-bottom: 15px;
 
 }
-#p{color: #555;
-    font-size: 20px;
-    padding-left: 70px;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    letter-spacing: 2px;
-    
 
-}
+                /* CONTACT*/
 #contact{
   background-color: #F0F4F5;
   text-align: center;
+/* END OF THE INDEX PAGE*/
+
+/*ABOUT PAGE*/
   
 }
+/* END OF INDEX PAGE*/
+
+
+/* ABOUT PAGE*/
 #about-quote{
   text-align: center;
   color: #0a1c2e;
@@ -130,6 +142,9 @@ p{
   padding: 50px;
   
 }
+/* END OF ABOUT PAGE*/
+
+
 #product-intro{
   margin-left: 60px;
   margin-right: 60px;
@@ -230,6 +245,8 @@ body#faq{
   margin-left: 10px;
  
 }
+/* END OF FAQ PAGE*/
+
 
 .frag-left{
   float: left;
